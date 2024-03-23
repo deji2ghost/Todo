@@ -37,7 +37,7 @@ export const Contact = () => {
         {
             contact.map((cont) => {
                 return(
-                    <div key={cont.id} className='mx-4 my-4 bg-white p-3 rounded shadow-md w-1/5'>
+                    <div key={cont.id} className='mx-4 my-4 bg-white p-3 rounded shadow-md w-2/5'>
                         <div className='flex my-2 items-center'><FontAwesomeIcon icon={faContactCard}/><span className='mx-2 font-light'>Name: {cont.name}</span></div>
                         <div className='flex my-2 items-center'><FontAwesomeIcon icon={faPhone}/><span className='mx-2 font-light'>Phone Number: {cont.phone}</span></div>
                         <div className='flex my-2 items-center'><FontAwesomeIcon icon={faSuitcase} /><span className='mx-2 font-light'>Occupation: {cont.occupation}</span></div>

@@ -22,7 +22,7 @@ export const AddContact = (props) => {
     }
   return (
     <>
-        <div onClick={handleClick} className='cursor-pointer text-center bg-purple-600 w-1/12 mx-auto my-8 rounded p-3 ease-in-out hover:bg-stone-600 hover:text-gray-500'>Add Contact</div>
+        <div onClick={handleClick} className='cursor-pointer text-center bg-purple-600 w-2/6 mx-auto my-8 rounded p-3 ease-in-out hover:bg-stone-600 hover:text-gray-500'>Add Contact</div>
 
         <div onClick={handleClick} className={`absolute bg-gray-300 bg-opacity-50  ${clicked ? 'hidden' : 'visible'} top-0 left-0 w-full h-screen`}></div>
         <form onSubmit={handleSubmit} className={`absolute rounded ${clicked ? 'hidden' : 'visible'} p-4 w-2/6 top-0 bottom-0 my-auto h-64 left-0 right-0 mx-auto bg-slate-600`}>
